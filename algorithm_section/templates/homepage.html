@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jmusic</title>
+    <link rel="stylesheet" href="static/styles/home.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+<div class="everything_box">
+<div class="container">
+  <div class="my_header">
+    <div class="text_section">
+  <p class="p1">Welcome to JMusic</p>
+  <p class="p2">All your favorites are here</p></div>
+  <img src="static/images/user.png" class="pic1">
+  <img src="static/images/menu.png" class="pic2">
+  
+
+  
+  
+  
+</div>
+<div class="round">
+<p class="p3">Select preferred Artists</p></div>
+  <div class="select_boxes">
+<div> <input type="checkbox" class="checker" onclick="myTop5('Drake')"> <div id="artistInfo"> 
+</div></div>
+<div><input type="checkbox" class="checker"  onclick="myTop5('Davido')"><div id="artistInfo2"></div></div>
+<div> <input type="checkbox" class="checker"> <div id="artistInfo3" onclick="getTrackIdsByAtist('21')"></div></div>
+<div id="artistInfo4" onclick="getTrackIdsByAtist('Juice Wrld')"> <input type="checkbox" class="checker"></div>
+<div id="artistInfo5" onclick="getTrackIdsByAtist('Tyler, The')"> <input type="checkbox" class="checker"></div>
+<div id="artistInfo6" onclick="getTrackIdsByAtist('Gunna')"> <input type="checkbox" class="checker"></div>
+<div id="artistInfo7" onclick="getTrackIdsByAtist('Tyla')"> <input type="checkbox" class="checker"></div>
+<div id="artistInfo8" onclick="getTrackIdsByAtist('Tems')"> <input type="checkbox" class="checker"></div>
+<div id="artistInfo9" onclick="getTrackIdsByAtist('Weekend')"> <input type="checkbox" class="checker"></div>
+  </div>
+	<button class="butn" onclick="changeUrl('{{ url_for('search_page') }}')">Continue</button>
+</div>
+</div>
+
+<script src="static/get_info.js"></script>
+<!-- <script src="static/mysearchpage.js"></script> -->
+  </body>
+</html>

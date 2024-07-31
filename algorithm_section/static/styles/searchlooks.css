@@ -1,0 +1,103 @@
+.container {
+  background-image: url('photos/background_image.jpg');
+  width: 100%;
+  height: 2800px;
+  
+ 
+}
+
+.header {
+  height: 120px;
+  width: 100%;
+}
+.bubbles {
+  background-color: rgb(20, 20, 82);
+  height: 80px;
+  width: 100%;
+
+}
+#songInfo {
+  background-color: rgb(11, 11, 53);
+  height: 80px;
+  width: 100%;
+}
+.footer {
+  height: 60px;
+  width: 100%;
+}
+#searchQuery {
+  width: 800px;
+  height: 50px;
+  margin-left: 180px;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(250, 239, 239);
+  border: none;
+  border-radius: 14px;
+text-align: center;
+box-shadow:  12px 12px 12px rgba(93, 93, 247, 0.1);
+
+}
+.searchbtn {
+
+  width: 50px;
+  margin-left: 0px;
+  height: 50px;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(240, 233, 233);
+  border: none;
+  border-radius: 14px;
+text-align: center;
+
+}
+.searchimg {
+  width: 25px;
+  height: 25px;
+}
+
+.songList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.artistName {
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+.songTitle {
+	color: white;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+}
+.musicInfo {
+  background-color: rgb(20, 20, 82);
+  height: 120px;
+  padding-top: 10px;
+  width: 100%;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.duration {
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 220px;
+	align-self: center;
+}
+.albumImage {
+	width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+	margin-right: 40px;
+}

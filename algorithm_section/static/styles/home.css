@@ -1,0 +1,249 @@
+body {
+  font-family: Arial;
+  font-size: 35px;
+  
+}
+.container {
+  width: 105%;
+  margin: 0px;
+  height: 2200px;
+  background-color: rgb(11, 11, 53);
+  right: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.everything_box {
+	width: 105%;
+	margin 0px;
+	height: 2000px;
+	background-color: yellow;
+}
+
+.header {
+    width: 400px;
+    height: 380px;
+    background-color: blue;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.p1 {
+  font-weight: bold;
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.p2 {
+  margin: 0px;
+  color: rgb(224, 187, 22);
+  font-size: 24px;
+  font-family: 'Lucida Sans Regular';
+  margin-left: 50px;
+}
+.p3 {
+  font-weight: bold;
+  color: whitesmoke;
+  margin-top: 30px;
+  font-size: 50px;
+  
+}
+.select_boxes {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  background-color: rgb(11, 11, 53);;
+  border-radius: 20px;
+}
+
+.the_box {
+  width: 120px;
+  height: 300px;
+  background-color: blueviolet;
+}
+
+.my_header {
+  display: grid;
+  grid-template-columns: 5fr 0.3fr 0.5fr;
+  margin-bottom: 0px;
+  
+ 
+}
+
+.pic1 {
+  width: 60px;
+  height: 60px;
+  margin-top: 28px;
+  margin-left: 10px;
+  cursor: pointer;
+ 
+}
+
+.pic2 {
+  width: 60px;
+  height: 60px;
+  margin-top: 28px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.butn {
+  height: 65px;
+  width: 230px;
+  border-radius: 60px;
+  border: none;
+  margin-top: 55px;
+place-self: center;
+color: white;
+background-color: blue;
+font-size: 20px;
+font-weight: bolder;
+cursor: pointer;
+box-shadow:  12px 12px 12px rgba(19, 2, 247, 0.1);
+transition: all 0.3s ease;
+}
+
+.butn:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+
+}
+
+.my_header {
+  background-color:  rgb(11, 11, 53);
+  border-radius: 20px;
+  height: 180px;
+  
+}
+
+.round {
+  border-radius: 30px;
+  background-color: rgb(14, 14, 68);
+  text-align: center;
+  box-shadow: 32px 32px 32px 32px rgba(29, 29, 255, 0.1);;
+  
+}
+#artistInfo {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#artistInfo2 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo3 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo4 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo5 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo6 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo7 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo8 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+#artistInfo9 {
+    width: 400px;
+    height: 550px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 25px;
+    cursor: pointer;;
+}
+
+.artist_image {
+	width: 350px;
+	height: 320px;
+	/*border-radius: 40px;*/
+	margin-left: 23px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.name {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	margin-left: 5px;
+	font-size: 35px;
+}
+.followers {
+	color: white;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-family: Arial;
+	margin-top: 6px;
+	font-size: 25px;
+}
+.rating {
+	color: white;
+        margin-left: 16px;
+        margin-bottom: 0px;
+        font-family: Arial;
+        margin-top: 6px;
+        font-size: 25px;
+}
+.checker {
+  width: 35px;
+  height: 35px;
+  margin-left: 380px;
+  margin-top: 30px;
+
+}
